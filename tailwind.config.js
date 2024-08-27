@@ -5,11 +5,11 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
-    },
-    colors: {
+      },
+      colors: {
         primary: {
-            DEFAULT: "#0D4929",
-            light: "#F1F8E3",
+          DEFAULT: "#0D4929",
+          light: "#F1F8E3",
         },
         secondary: "#2ECC71",
         tertiary: "#FBCB00",
@@ -21,18 +21,16 @@ module.exports = {
         dark: "#343A40",
         white: "#FFFFFF",
         gray: {
-            100: "#F8F9FA",
-            200: "#E9ECEF",
-            300: "#C6C6C6",
-            400: "#868E96",
-            500: "#5A6268",
-            600: "#343A40",
-            700: "#212529",}
+          100: "#F8F9FA",
+          200: "#E9ECEF",
+          300: "#C6C6C6",
+          400: "#868E96",
+          500: "#5A6268",
+          600: "#343A40",
+          700: "#212529",
         },
+      },
     },
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
-}
-
+  plugins: [require("flowbite/plugin")],
+};
